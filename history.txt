@@ -1,0 +1,10 @@
+  146  git push --set-upstream origin feature
+  147  git log
+  148  git commit --amend -m "Edit with amend"
+  149  git log
+  150  git checkout main 
+  151  cat README.md 
+  152  git merge feature 
+  153  cat README.md 
+  154  cat .gitignore 
+  155  history | tail >> history.txt
